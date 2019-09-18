@@ -1,49 +1,48 @@
-@media screen and (max-width: 1000px) {
-    .section {
-        padding: 0 20px;
+@media screen and (max-width: 900px) {
+    .consultation, .contact, .info, .info, .profiles, .contact, .gallery .block, .menu__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery .block .block__photos {
+        width: 100% !important;
+        margin-top: 10px !important;
     }
 
     .menu__item {
         margin: 0;
     }
 
-    .consultation {
+    .menu__top {
+        margin: 0 !important;
         display: flex;
         flex-direction: column;
-        padding: 0 20px;
+        align-items: center;
+    }
+
+    .menu__num, .menu__call, .menu__logo {
+        margin: 0 0 10px 0 !important;
+    }
+
+    .menu__top img {
+        margin-right: 0 !important;
+    }
+
+    .menu__list {
+        padding: 0;
+    }
+
+    .titel {
+        padding: 50px !important;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .menu__list {
-        flex-direction: column;
-    }
+
     .menu {
-        &__top {
-            flex-direction: column;
-        }
         &__logo {
             margin-bottom: 15px;
         }
-        &__num, &__call {
-            margin-top: 0;
-         }
-    }
-
-    .info {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .profiles { 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contact {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 }

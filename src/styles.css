@@ -260,7 +260,7 @@ strong {
   line-height: 24px;
 }
 .consultation__button {
-  width: 382px;
+  width: 381px;
   padding: 19px;
 }
 
@@ -269,7 +269,7 @@ strong {
   justify-content: space-between;
 }
 .contact__button {
-  width: 382px;
+  width: 381px;
   padding: 19px;
 }
 .contact__titel {
@@ -281,6 +281,7 @@ strong {
 
 .textarea {
   height: 166px;
+  box-sizing: border-box;
 }
 
 .nofocus {

@@ -1,21 +1,21 @@
 .contact {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    &__button {
-        width: 383px;
-        padding: 19px;  
-    }
+  &__button {
+    width: 383px;
+    padding: 19px;
+  }
 
-    &__titel {
-        margin: 0;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 36px;
-    }
+  &__titel {
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+  }
 
-    &__textare {
-        height: 166px !important;
-        box-sizing: border-box;
-    }
+  &__textare {
+    height: 166px !important;
+    box-sizing: border-box;
+  }
 }

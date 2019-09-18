@@ -68,7 +68,7 @@
   border-radius: 10px;
 }
 .menu_activ a {
-  color: #000000;
+  color: #000000 !important;
   text-decoration: none;
 }
 
@@ -217,17 +217,21 @@ strong {
   margin: auto;
 }
 
-.input, textarea {
+.input, .textarea {
   width: 380px;
   height: 54px;
   background-color: #EEEEEE;
   text-transform: uppercase;
   border: none;
   text-align: center;
+  margin-bottom: 7px;
+  resize: none;
 }
-.input::placeholder, textarea::placeholder {
+.input::placeholder, .textarea::placeholder {
   color: #393939;
   font-weight: 500;
+  font-family: Ubuntu;
+  font-size: 14px;
 }
 
 .form {
@@ -255,17 +259,9 @@ strong {
   font-size: 16px;
   line-height: 24px;
 }
-.consultation__input {
-  margin-bottom: 7px;
-}
 .consultation__button {
-  padding: 19px 140px;
-}
-
-.textare {
-  width: 376px;
-  resize: none;
-  height: 166px;
+  width: 383px;
+  padding: 19px;
 }
 
 .contact {
@@ -273,10 +269,8 @@ strong {
   justify-content: space-between;
 }
 .contact__button {
-  white-space: nowrap;
-}
-.contact__input {
-  margin-bottom: 7px;
+  width: 383px;
+  padding: 19px;
 }
 .contact__titel {
   margin: 0;
@@ -284,8 +278,8 @@ strong {
   font-size: 24px;
   line-height: 36px;
 }
-.contact__button {
-  padding: 19px 146.5px;
+.contact__textare {
+  height: 166px !important;
 }
 
 .nofocus {
@@ -384,7 +378,11 @@ strong {
   }
 
   .titel {
-    padding: 50px !important;
+    padding: 60px 15px !important;
+  }
+
+  .info__home, .contact__titel, .consultation__info {
+    margin-bottom: 40px;
   }
 }
 @media screen and (max-width: 600px) {

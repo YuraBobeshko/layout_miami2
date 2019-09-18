@@ -1,19 +1,10 @@
-.textare {
-    width: 376px;
-    resize:none;
-    height: 166px;
-}
-
 .contact {
     display: flex;
     justify-content: space-between;
 
     &__button {
-        white-space: nowrap;
-    }
-
-    &__input {
-        margin-bottom: 7px;
+        width: 383px;
+        padding: 19px;  
     }
 
     &__titel {
@@ -23,7 +14,7 @@
         line-height: 36px;
     }
 
-    &__button {
-        padding: 19px 146.5px;
+    &__textare {
+        height: 166px !important;
     }
 }

@@ -57,6 +57,7 @@
     &__item:first-child {
         margin-left: 0;
     }
+
     &__link {
         color: #fff;
         text-decoration: none;
@@ -68,7 +69,7 @@
         border-radius: 10px;
 
         a {
-            color: #000000;
+            color: #000000 !important;
             text-decoration: none;
         }
     }

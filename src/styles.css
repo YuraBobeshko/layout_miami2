@@ -280,6 +280,7 @@ strong {
 }
 
 .textarea {
+  padding: 17px;
   height: 166px;
   box-sizing: border-box;
 }
